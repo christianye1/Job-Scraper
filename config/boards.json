@@ -1,0 +1,27 @@
+{
+  "greenhouse": [
+    "stripe",
+    "airbnb",
+    "duolingo",
+    "figma"
+  ],
+  "lever": [
+    "netflix",
+    "shopify"
+  ],
+  "indeed": [
+    {
+      "q": "software engineer intern machine learning",
+      "l": "United States",
+      "label": "swe-ml-intern-us"
+    }
+  ],
+  "linkedin": [
+    {
+      "keywords": "software engineer intern OR machine learning intern",
+      "location": "United States",
+      "label": "swe-ml-intern-us",
+      "pages": 2
+    }
+  ]
+}

@@ -1,0 +1,2129 @@
+{
+  "meta": {
+    "generated_at_utc": "2026-03-26T16:14:08Z",
+    "matched_count": 212,
+    "new_since_state_count": 212
+  },
+  "jobs": [
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7735274",
+      "title": "Associate Counsel, IP & Open Source",
+      "url": "https://careers.airbnb.com/positions/7735274?gh_jid=7735274",
+      "location": "United States",
+      "team": "Legal",
+      "fingerprint": "greenhouse:airbnb:7735274"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7700645",
+      "title": "CS Taxonomy and Ontology Manager",
+      "url": "https://careers.airbnb.com/positions/7700645?gh_jid=7700645",
+      "location": "United States",
+      "team": "Community Support",
+      "fingerprint": "greenhouse:airbnb:7700645"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7717035",
+      "title": "Data Protection Operations Lead",
+      "url": "https://careers.airbnb.com/positions/7717035?gh_jid=7717035",
+      "location": "Canada",
+      "team": "Community Support",
+      "fingerprint": "greenhouse:airbnb:7717035"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7652631",
+      "title": "Data Protection Operations Lead",
+      "url": "https://careers.airbnb.com/positions/7652631?gh_jid=7652631",
+      "location": "Canada",
+      "team": "Community Support",
+      "fingerprint": "greenhouse:airbnb:7652631"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7737230",
+      "title": "Engineering Manager, Data Movement & Transformation",
+      "url": "https://careers.airbnb.com/positions/7737230?gh_jid=7737230",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7737230"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7434498",
+      "title": "Engineering Manager, Mobile Quality Engineering",
+      "url": "https://careers.airbnb.com/positions/7434498?gh_jid=7434498",
+      "location": "São Paulo, Brazil",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7434498"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7545335",
+      "title": "Fraud & Safety Risk Manager",
+      "url": "https://careers.airbnb.com/positions/7545335?gh_jid=7545335",
+      "location": "United States",
+      "team": "Trust and Safety",
+      "fingerprint": "greenhouse:airbnb:7545335"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7586592",
+      "title": "Lead Advanced Analytics, Digital & AI Products",
+      "url": "https://careers.airbnb.com/positions/7586592?gh_jid=7586592",
+      "location": "Bangalore, India",
+      "team": "Community Support",
+      "fingerprint": "greenhouse:airbnb:7586592"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7716341",
+      "title": "Machine Learning Engineer, Community Support Engineering",
+      "url": "https://careers.airbnb.com/positions/7716341?gh_jid=7716341",
+      "location": "China",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7716341"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7669906",
+      "title": "Machine Learning Engineering Intern (PhD)",
+      "url": "https://careers.airbnb.com/positions/7669906?gh_jid=7669906",
+      "location": "United States",
+      "team": "Intern",
+      "fingerprint": "greenhouse:airbnb:7669906"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7672101",
+      "title": "Manager, Machine Learning, Community Support Products",
+      "url": "https://careers.airbnb.com/positions/7672101?gh_jid=7672101",
+      "location": "China",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7672101"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7607680",
+      "title": "Product Manager, API Platform",
+      "url": "https://careers.airbnb.com/positions/7607680?gh_jid=7607680",
+      "location": "United States",
+      "team": "Product Management",
+      "fingerprint": "greenhouse:airbnb:7607680"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "6602436",
+      "title": "Senior Android Software Engineer",
+      "url": "https://careers.airbnb.com/positions/6602436?gh_jid=6602436",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:6602436"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7446449",
+      "title": "Senior Data Scientist - Inference, Global Markets",
+      "url": "https://careers.airbnb.com/positions/7446449?gh_jid=7446449",
+      "location": "China",
+      "team": "Data Science",
+      "fingerprint": "greenhouse:airbnb:7446449"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7668022",
+      "title": "Senior Software Engineer (Quality), Payments",
+      "url": "https://careers.airbnb.com/positions/7668022?gh_jid=7668022",
+      "location": "Bangalore, India",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7668022"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7175614",
+      "title": "Senior Software Engineer, AI Products",
+      "url": "https://careers.airbnb.com/positions/7175614?gh_jid=7175614",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7175614"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7482013",
+      "title": "Senior Software Engineer, Community Support Engineering",
+      "url": "https://careers.airbnb.com/positions/7482013?gh_jid=7482013",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7482013"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7729350",
+      "title": "Senior Software Engineer, Dev AI, Developer Infrastructure",
+      "url": "https://careers.airbnb.com/positions/7729350?gh_jid=7729350",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7729350"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7613550",
+      "title": "Senior Software Engineer, Payments",
+      "url": "https://careers.airbnb.com/positions/7613550?gh_jid=7613550",
+      "location": "Bangalore, India",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7613550"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7600470",
+      "title": "Senior Staff Software Engineer, Network Infrastructure",
+      "url": "https://careers.airbnb.com/positions/7600470?gh_jid=7600470",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7600470"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7525479",
+      "title": "Senior Staff Software Engineer, Payments",
+      "url": "https://careers.airbnb.com/positions/7525479?gh_jid=7525479",
+      "location": "Bangalore, India",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7525479"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7693033",
+      "title": "Senior/Staff Machine Learning Engineer, Community Support Engineering",
+      "url": "https://careers.airbnb.com/positions/7693033?gh_jid=7693033",
+      "location": "China",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7693033"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7527407",
+      "title": "Software Engineer, Storage",
+      "url": "https://careers.airbnb.com/positions/7527407?gh_jid=7527407",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7527407"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7711988",
+      "title": "Specialist, CS Labs",
+      "url": "https://careers.airbnb.com/positions/7711988?gh_jid=7711988",
+      "location": "Gurugram, India",
+      "team": "Community Support",
+      "fingerprint": "greenhouse:airbnb:7711988"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7464655",
+      "title": "Staff AI Innovation Engineer, EX",
+      "url": "https://careers.airbnb.com/positions/7464655?gh_jid=7464655",
+      "location": "United States",
+      "team": "Employee Experience",
+      "fingerprint": "greenhouse:airbnb:7464655"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7733495",
+      "title": "Staff Analytics Engineer - Foundational Data",
+      "url": "https://careers.airbnb.com/positions/7733495?gh_jid=7733495",
+      "location": "United States",
+      "team": "Data Science",
+      "fingerprint": "greenhouse:airbnb:7733495"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7705161",
+      "title": "Staff Data Scientist, Marketplace Optimization and Ranking",
+      "url": "https://careers.airbnb.com/positions/7705161?gh_jid=7705161",
+      "location": "United States",
+      "team": "Data Science",
+      "fingerprint": "greenhouse:airbnb:7705161"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7554915",
+      "title": "Staff Fullstack Software Engineer, Marketing Technology",
+      "url": "https://careers.airbnb.com/positions/7554915?gh_jid=7554915",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7554915"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7463421",
+      "title": "Staff GenAI Backend Engineer, Automation Foundation",
+      "url": "https://careers.airbnb.com/positions/7463421?gh_jid=7463421",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7463421"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7747440",
+      "title": "Staff Platform Manager, Business Host Payouts",
+      "url": "https://careers.airbnb.com/positions/7747440?gh_jid=7747440",
+      "location": "United States",
+      "team": "Product Management",
+      "fingerprint": "greenhouse:airbnb:7747440"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7702714",
+      "title": "Staff Software Engineer (Technical Lead), Storage",
+      "url": "https://careers.airbnb.com/positions/7702714?gh_jid=7702714",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7702714"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7712102",
+      "title": "Staff Software Engineer, Airfam Products",
+      "url": "https://careers.airbnb.com/positions/7712102?gh_jid=7712102",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7712102"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7739337",
+      "title": "Staff Software Engineer, Build",
+      "url": "https://careers.airbnb.com/positions/7739337?gh_jid=7739337",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7739337"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7655958",
+      "title": "Staff Software Engineer, Communication Products",
+      "url": "https://careers.airbnb.com/positions/7655958?gh_jid=7655958",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7655958"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "6448191",
+      "title": "Staff Software Engineer, Community Support Engineering",
+      "url": "https://careers.airbnb.com/positions/6448191?gh_jid=6448191",
+      "location": "China",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:6448191"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7729271",
+      "title": "Staff Software Engineer, Dev AI, Developer Infrastructure",
+      "url": "https://careers.airbnb.com/positions/7729271?gh_jid=7729271",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7729271"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7719366",
+      "title": "Staff Software Engineer, GraphQL",
+      "url": "https://careers.airbnb.com/positions/7719366?gh_jid=7719366",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7719366"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7528577",
+      "title": "Staff Software Engineer, Listings & Host Tools and AI",
+      "url": "https://careers.airbnb.com/positions/7528577?gh_jid=7528577",
+      "location": "United States",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:airbnb:7528577"
+    },
+    {
+      "source": "greenhouse",
+      "board": "airbnb",
+      "external_id": "7724823",
+      "title": "Staff Technical Program Manager, Community Support Engineering",
+      "url": "https://careers.airbnb.com/positions/7724823?gh_jid=7724823",
+      "location": "United States",
+      "team": "Technical Program Management",
+      "fingerprint": "greenhouse:airbnb:7724823"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8151163002",
+      "title": "AI Research Engineer, New PhD Graduate",
+      "url": "https://careers.duolingo.com/jobs/8151163002?gh_jid=8151163002",
+      "location": "New York, NY, Pittsburgh, PA",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:duolingo:8151163002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8169815002",
+      "title": "AI Research Engineer, New PhD Graduate",
+      "url": "https://careers.duolingo.com/jobs/8169815002?gh_jid=8169815002",
+      "location": "New York, NY, Pittsburgh, PA",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:duolingo:8169815002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8390622002",
+      "title": "Director of Product Management, Growth",
+      "url": "https://careers.duolingo.com/jobs/8390622002?gh_jid=8390622002",
+      "location": "Pittsburgh, PA",
+      "team": "Product Management",
+      "fingerprint": "greenhouse:duolingo:8390622002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8390634002",
+      "title": "Director of Product Management, Growth",
+      "url": "https://careers.duolingo.com/jobs/8390634002?gh_jid=8390634002",
+      "location": "Pittsburgh, PA",
+      "team": "Product Management",
+      "fingerprint": "greenhouse:duolingo:8390634002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8453396002",
+      "title": "Senior Android Engineer, App Builds",
+      "url": "https://careers.duolingo.com/jobs/8453396002?gh_jid=8453396002",
+      "location": "New York, NY",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:duolingo:8453396002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8385137002",
+      "title": "Senior Engineering Manager, New Initiatives",
+      "url": "https://careers.duolingo.com/jobs/8385137002?gh_jid=8385137002",
+      "location": "New York, NY",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:duolingo:8385137002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8054750002",
+      "title": "Senior iOS Engineer, App Builds",
+      "url": "https://careers.duolingo.com/jobs/8054750002?gh_jid=8054750002",
+      "location": "New York, NY",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:duolingo:8054750002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8318257002",
+      "title": "Senior iOS Software Engineer",
+      "url": "https://careers.duolingo.com/jobs/8318257002?gh_jid=8318257002",
+      "location": "New York, NY",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:duolingo:8318257002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8393272002",
+      "title": "Senior iOS Software Engineer",
+      "url": "https://careers.duolingo.com/jobs/8393272002?gh_jid=8393272002",
+      "location": "New York, NY",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:duolingo:8393272002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8390632002",
+      "title": "Senior Platform Engineering Manager",
+      "url": "https://careers.duolingo.com/jobs/8390632002?gh_jid=8390632002",
+      "location": "Pittsburgh, PA",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:duolingo:8390632002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8457170002",
+      "title": "Senior Software Engineer, Backend",
+      "url": "https://careers.duolingo.com/jobs/8457170002?gh_jid=8457170002",
+      "location": "Pittsburgh, PA, Seattle, WA",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:duolingo:8457170002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8328205002",
+      "title": "Senior Software Engineer, Backend",
+      "url": "https://careers.duolingo.com/jobs/8328205002?gh_jid=8328205002",
+      "location": "Pittsburgh, PA, Seattle, WA",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:duolingo:8328205002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8445379002",
+      "title": "Senior Software Engineer, Chess",
+      "url": "https://careers.duolingo.com/jobs/8445379002?gh_jid=8445379002",
+      "location": "New York, NY",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:duolingo:8445379002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8471680002",
+      "title": "Software Engineer II",
+      "url": "https://careers.duolingo.com/jobs/8471680002?gh_jid=8471680002",
+      "location": "New York, NY",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:duolingo:8471680002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8322733002",
+      "title": "Staff iOS Engineer, App Builds",
+      "url": "https://careers.duolingo.com/jobs/8322733002?gh_jid=8322733002",
+      "location": "New York, NY",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:duolingo:8322733002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8359425002",
+      "title": "Staff Technical Program Manager",
+      "url": "https://careers.duolingo.com/jobs/8359425002?gh_jid=8359425002",
+      "location": "Pittsburgh, PA",
+      "team": "Software Engineering",
+      "fingerprint": "greenhouse:duolingo:8359425002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8454951002",
+      "title": "Talent Attraction Partner",
+      "url": "https://careers.duolingo.com/jobs/8454951002?gh_jid=8454951002",
+      "location": "New York, NY, Pittsburgh, PA",
+      "team": "Talent Acquisition",
+      "fingerprint": "greenhouse:duolingo:8454951002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "duolingo",
+      "external_id": "8454982002",
+      "title": "Talent Attraction Partner",
+      "url": "https://careers.duolingo.com/jobs/8454982002?gh_jid=8454982002",
+      "location": "New York, NY, Pittsburgh, PA",
+      "team": "Talent Acquisition",
+      "fingerprint": "greenhouse:duolingo:8454982002"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5633324004",
+      "title": "Associate Solutions Consultant",
+      "url": "https://boards.greenhouse.io/figma/jobs/5633324004?gh_jid=5633324004",
+      "location": "US",
+      "team": "Sales",
+      "fingerprint": "greenhouse:figma:5633324004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5615966004",
+      "title": "Enterprise Solutions Consultant (Bengaluru, India)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5615966004?gh_jid=5615966004",
+      "location": "Bengaluru, India",
+      "team": "Sales",
+      "fingerprint": "greenhouse:figma:5615966004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5696366004",
+      "title": "Manager, Software Engineering - Creation Engine",
+      "url": "https://boards.greenhouse.io/figma/jobs/5696366004?gh_jid=5696366004",
+      "location": "Canada, US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5696366004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5678196004",
+      "title": "Manager, Software Engineering - Expressive AI",
+      "url": "https://boards.greenhouse.io/figma/jobs/5678196004?gh_jid=5678196004",
+      "location": "Canada, US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5678196004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5778796004",
+      "title": "Manager, Software Engineering - Interaction Design",
+      "url": "https://boards.greenhouse.io/figma/jobs/5778796004?gh_jid=5778796004",
+      "location": "Canada, US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5778796004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5792689004",
+      "title": "Manager, Software Engineering - Internal Tools",
+      "url": "https://boards.greenhouse.io/figma/jobs/5792689004?gh_jid=5792689004",
+      "location": "Canada, US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5792689004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5807963004",
+      "title": "Manager, Software Engineering - Observability",
+      "url": "https://boards.greenhouse.io/figma/jobs/5807963004?gh_jid=5807963004",
+      "location": "Canada, US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5807963004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5810842004",
+      "title": "Regional Marketing Manager (São Paulo, Brazil)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5810842004?gh_jid=5810842004",
+      "location": "São Paulo, Brazil",
+      "team": "Marketing",
+      "fingerprint": "greenhouse:figma:5810842004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5728528004",
+      "title": "Regional Marketing Manager (Tokyo, Japan)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5728528004?gh_jid=5728528004",
+      "location": "Tokyo, JP",
+      "team": "Marketing",
+      "fingerprint": "greenhouse:figma:5728528004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5829751004",
+      "title": "Security Engineer",
+      "url": "https://boards.greenhouse.io/figma/jobs/5829751004?gh_jid=5829751004",
+      "location": "US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5829751004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5721527004",
+      "title": "Senior Solutions Consultant (Tokyo, Japan)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5721527004?gh_jid=5721527004",
+      "location": "Tokyo, JP",
+      "team": "Sales",
+      "fingerprint": "greenhouse:figma:5721527004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5621177004",
+      "title": "Software Engineer Intern, Developer Tools (2026) (London, United Kingdom)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5621177004?gh_jid=5621177004",
+      "location": "London, UK",
+      "team": "Early Career",
+      "fingerprint": "greenhouse:figma:5621177004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5552530004",
+      "title": "Software Engineer, C++",
+      "url": "https://boards.greenhouse.io/figma/jobs/5552530004?gh_jid=5552530004",
+      "location": "Canada, US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5552530004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5552549004",
+      "title": "Software Engineer, Distributed Systems",
+      "url": "https://boards.greenhouse.io/figma/jobs/5552549004?gh_jid=5552549004",
+      "location": "Canada, US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5552549004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5691911004",
+      "title": "Software Engineer, Full Stack",
+      "url": "https://boards.greenhouse.io/figma/jobs/5691911004?gh_jid=5691911004",
+      "location": "Canada, US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5691911004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5692524004",
+      "title": "Software Engineer, Fullstack - Figma Weave (Tel Aviv, Israel)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5692524004?gh_jid=5692524004",
+      "location": "Tel Aviv, Israel",
+      "team": "Weavy - Figma Weave",
+      "fingerprint": "greenhouse:figma:5692524004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5552522004",
+      "title": "Software Engineer, Graphics & Media",
+      "url": "https://boards.greenhouse.io/figma/jobs/5552522004?gh_jid=5552522004",
+      "location": "Canada, US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5552522004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5552560004",
+      "title": "Software Engineer, Growth & Monetization",
+      "url": "https://boards.greenhouse.io/figma/jobs/5552560004?gh_jid=5552560004",
+      "location": "Canada, US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5552560004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5759501004",
+      "title": "Software Engineer, Translations Platform",
+      "url": "https://boards.greenhouse.io/figma/jobs/5759501004?gh_jid=5759501004",
+      "location": "Canada, US",
+      "team": "Engineering",
+      "fingerprint": "greenhouse:figma:5759501004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5783377004",
+      "title": "Solutions Consultant",
+      "url": "https://boards.greenhouse.io/figma/jobs/5783377004?gh_jid=5783377004",
+      "location": "US",
+      "team": "Sales",
+      "fingerprint": "greenhouse:figma:5783377004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5735853004",
+      "title": "Solutions Consultant (Berlin, Germany)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5735853004?gh_jid=5735853004",
+      "location": "Berlin, DE",
+      "team": "Sales",
+      "fingerprint": "greenhouse:figma:5735853004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5735493004",
+      "title": "Solutions Consultant (London, United Kingdom)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5735493004?gh_jid=5735493004",
+      "location": "London, UK",
+      "team": "Sales",
+      "fingerprint": "greenhouse:figma:5735493004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "external_id": "5735542004",
+      "title": "Solutions Consultant (Paris, France)",
+      "url": "https://boards.greenhouse.io/figma/jobs/5735542004?gh_jid=5735542004",
+      "location": "Paris, FR",
+      "team": "Sales",
+      "fingerprint": "greenhouse:figma:5735542004"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7546284",
+      "title": "Account Executive, AI Sales",
+      "url": "https://stripe.com/jobs/search?gh_jid=7546284",
+      "location": "US",
+      "team": "1650 AI GTM Strategy & Solutions",
+      "fingerprint": "greenhouse:stripe:7546284"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7532733",
+      "title": "Account Executive, AI Sales",
+      "url": "https://stripe.com/jobs/search?gh_jid=7532733",
+      "location": "US",
+      "team": "1175 Enterprise - Account Executives (NA)",
+      "fingerprint": "greenhouse:stripe:7532733"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7646513",
+      "title": "AI Solutions Developer, Finance",
+      "url": "https://stripe.com/jobs/search?gh_jid=7646513",
+      "location": "India Locations",
+      "team": "4202 BFin - FinOps (SDC)",
+      "fingerprint": "greenhouse:stripe:7646513"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7543559",
+      "title": "Android Engineer, Terminal",
+      "url": "https://stripe.com/jobs/search?gh_jid=7543559",
+      "location": "Canada Locations",
+      "team": "8512 Terminal - Eng",
+      "fingerprint": "greenhouse:stripe:7543559"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7550154",
+      "title": "Android Engineer, Terminal Developer Productivity",
+      "url": "https://stripe.com/jobs/search?gh_jid=7550154",
+      "location": "US",
+      "team": "8512 Terminal - Eng",
+      "fingerprint": "greenhouse:stripe:7550154"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7557403",
+      "title": "Android Engineer, Terminal OS Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=7557403",
+      "location": "US",
+      "team": "8512 Terminal - Eng",
+      "fingerprint": "greenhouse:stripe:7557403"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7552145",
+      "title": "APAC Product Lead",
+      "url": "https://stripe.com/jobs/search?gh_jid=7552145",
+      "location": "Singapore Locations",
+      "team": "8262 APAC - PM",
+      "fingerprint": "greenhouse:stripe:7552145"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7369543",
+      "title": "Backend / API Engineer, Payouts",
+      "url": "https://stripe.com/jobs/search?gh_jid=7369543",
+      "location": "United Kingdom Locations",
+      "team": "8531 Crypto Product",
+      "fingerprint": "greenhouse:stripe:7369543"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6567253",
+      "title": "Backend Engineer, Core Tech, Canada",
+      "url": "https://stripe.com/jobs/search?gh_jid=6567253",
+      "location": "Canada Locations",
+      "team": "8127 Core Infrastructure",
+      "fingerprint": "greenhouse:stripe:6567253"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7182617",
+      "title": "Backend Engineer, Core Technology",
+      "url": "https://stripe.com/jobs/search?gh_jid=7182617",
+      "location": "Ireland Locations",
+      "team": "8134 Operations Platform",
+      "fingerprint": "greenhouse:stripe:7182617"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6042172",
+      "title": "Backend Engineer, Core Technology",
+      "url": "https://stripe.com/jobs/search?gh_jid=6042172",
+      "location": "US",
+      "team": "8127 Core Infrastructure",
+      "fingerprint": "greenhouse:stripe:6042172"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6865161",
+      "title": "Backend Engineer, Data",
+      "url": "https://stripe.com/jobs/search?gh_jid=6865161",
+      "location": "Canada Locations",
+      "team": "8122 Data Foundations",
+      "fingerprint": "greenhouse:stripe:6865161"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7292520",
+      "title": "Backend Engineer, Developer Experience & Product Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=7292520",
+      "location": "Canada Locations",
+      "team": "8551 OAP - Eng",
+      "fingerprint": "greenhouse:stripe:7292520"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7249744",
+      "title": "Backend Engineer, Forward Deployed Engineering",
+      "url": "https://stripe.com/jobs/search?gh_jid=7249744",
+      "location": "Canada Locations",
+      "team": "8412 Billing Products",
+      "fingerprint": "greenhouse:stripe:7249744"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6163230",
+      "title": "Backend Engineer, Payments and Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=6163230",
+      "location": "US",
+      "team": "8560 Bank Connections - Eng",
+      "fingerprint": "greenhouse:stripe:6163230"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7232592",
+      "title": "Backend Engineer, Payments and Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=7232592",
+      "location": "US",
+      "team": "8582 Optimized Checkout - Eng",
+      "fingerprint": "greenhouse:stripe:7232592"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7235875",
+      "title": "Backend Engineer, Privy",
+      "url": "https://stripe.com/jobs/search?gh_jid=7235875",
+      "location": "US",
+      "team": "9001 Privy - R&D",
+      "fingerprint": "greenhouse:stripe:7235875"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "4921361",
+      "title": "Backend Engineer/API, Payments and Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=4921361",
+      "location": "Ireland Locations",
+      "team": "8556 LPM Core - Eng",
+      "fingerprint": "greenhouse:stripe:4921361"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6176758",
+      "title": "Backend/API Engineer, Money as a Service",
+      "url": "https://stripe.com/jobs/search?gh_jid=6176758",
+      "location": "US",
+      "team": "8546 MMS Platform - Eng",
+      "fingerprint": "greenhouse:stripe:6176758"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7430701",
+      "title": "Customer Success Manager (Mandarin Speaking)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7430701",
+      "location": "Singapore Locations",
+      "team": "1340 Customer Success Management",
+      "fingerprint": "greenhouse:stripe:7430701"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7285986",
+      "title": "Data Analyst, Intern (Master's degree)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7285986",
+      "location": "CA-Toronto",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7285986"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7644403",
+      "title": "Data Science Manager",
+      "url": "https://stripe.com/jobs/search?gh_jid=7644403",
+      "location": "Canada Locations",
+      "team": "7112 Data Science",
+      "fingerprint": "greenhouse:stripe:7644403"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7357460",
+      "title": "Data Scientist",
+      "url": "https://stripe.com/jobs/search?gh_jid=7357460",
+      "location": "Canada Locations",
+      "team": "7112 Data Science",
+      "fingerprint": "greenhouse:stripe:7357460"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7516102",
+      "title": "Data Scientist, EMEA",
+      "url": "https://stripe.com/jobs/search?gh_jid=7516102",
+      "location": "United Kingdom Locations",
+      "team": "7112 Data Science",
+      "fingerprint": "greenhouse:stripe:7516102"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7657999",
+      "title": "Engineering Manager, Agent Experiences",
+      "url": "https://stripe.com/jobs/search?gh_jid=7657999",
+      "location": "Canada Locations",
+      "team": "8116 Developer Platform - Eng",
+      "fingerprint": "greenhouse:stripe:7657999"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7657997",
+      "title": "Engineering Manager, Developer Productivity AI",
+      "url": "https://stripe.com/jobs/search?gh_jid=7657997",
+      "location": "US",
+      "team": "8126 Developer Infrastructure",
+      "fingerprint": "greenhouse:stripe:7657997"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7348218",
+      "title": "Engineering Manager, Link Consumer",
+      "url": "https://stripe.com/jobs/search?gh_jid=7348218",
+      "location": "Canada Locations",
+      "team": "8570 Consumer Network - Eng",
+      "fingerprint": "greenhouse:stripe:7348218"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7712852",
+      "title": "Engineering Manager, Machine Learning Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=7712852",
+      "location": "Canada Locations",
+      "team": "8212 ML Foundations",
+      "fingerprint": "greenhouse:stripe:7712852"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7729216",
+      "title": "Engineering Manager, Privy",
+      "url": "https://stripe.com/jobs/search?gh_jid=7729216",
+      "location": "US",
+      "team": "9001 Privy - R&D",
+      "fingerprint": "greenhouse:stripe:7729216"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7525370",
+      "title": "Engineering Manager, Sales Systems",
+      "url": "https://stripe.com/jobs/search?gh_jid=7525370",
+      "location": "India Locations",
+      "team": "8133 Marketing Systems",
+      "fingerprint": "greenhouse:stripe:7525370"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7609424",
+      "title": "Engineering Manager, User Billing",
+      "url": "https://stripe.com/jobs/search?gh_jid=7609424",
+      "location": "US",
+      "team": "8121 Revenue Foundations",
+      "fingerprint": "greenhouse:stripe:7609424"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7597624",
+      "title": "F&S COE Analyst",
+      "url": "https://stripe.com/jobs/search?gh_jid=7597624",
+      "location": "India Locations",
+      "team": "6451 COE F&S (SDC)",
+      "fingerprint": "greenhouse:stripe:7597624"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7278434",
+      "title": "Financial Data Analyst-User Billing",
+      "url": "https://stripe.com/jobs/search?gh_jid=7278434",
+      "location": "IN-Bengaluru",
+      "team": "8121 Revenue Foundations",
+      "fingerprint": "greenhouse:stripe:7278434"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7230452",
+      "title": "Forward Deployed Engineer, Privy",
+      "url": "https://stripe.com/jobs/search?gh_jid=7230452",
+      "location": "US",
+      "team": "9001 Privy - R&D",
+      "fingerprint": "greenhouse:stripe:7230452"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6786210",
+      "title": "Frontend Engineer, Payments and Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=6786210",
+      "location": "Canada Locations",
+      "team": "8414 MerchantXP - Eng",
+      "fingerprint": "greenhouse:stripe:6786210"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7743307",
+      "title": "Frontend Platform Engineer, JavaScript Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7743307",
+      "location": "Canada Locations",
+      "team": "8414 MerchantXP - Eng",
+      "fingerprint": "greenhouse:stripe:7743307"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7737239",
+      "title": "Full Stack Engineer, Billing",
+      "url": "https://stripe.com/jobs/search?gh_jid=7737239",
+      "location": "Canada Locations",
+      "team": "9014 Metronome - R&D",
+      "fingerprint": "greenhouse:stripe:7737239"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6567104",
+      "title": "Full Stack Engineer, Developer Experience & Product Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=6567104",
+      "location": "Canada Locations",
+      "team": "8916 Growth - Eng",
+      "fingerprint": "greenhouse:stripe:6567104"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7403151",
+      "title": "Full Stack Engineer, Enterprise & Ecosystem",
+      "url": "https://stripe.com/jobs/search?gh_jid=7403151",
+      "location": "Canada Locations",
+      "team": "8712 Enterprise Engine",
+      "fingerprint": "greenhouse:stripe:7403151"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6447175",
+      "title": "Full Stack Engineer, Link",
+      "url": "https://stripe.com/jobs/search?gh_jid=6447175",
+      "location": "Canada Locations",
+      "team": "8560 Bank Connections - Eng",
+      "fingerprint": "greenhouse:stripe:6447175"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6606581",
+      "title": "Full Stack Engineer, Money as a Service",
+      "url": "https://stripe.com/jobs/search?gh_jid=6606581",
+      "location": "Canada Locations",
+      "team": "8514 Connect - Eng",
+      "fingerprint": "greenhouse:stripe:6606581"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7591894",
+      "title": "Full Stack Engineer, Risk & Support",
+      "url": "https://stripe.com/jobs/search?gh_jid=7591894",
+      "location": "Canada Locations",
+      "team": "4118 Managed Operations",
+      "fingerprint": "greenhouse:stripe:7591894"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7436086",
+      "title": "Full Stack Engineer, Web Presence and Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=7436086",
+      "location": "Canada Locations",
+      "team": "8813 Web Presence & Platform",
+      "fingerprint": "greenhouse:stripe:7436086"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7594874",
+      "title": "Integration Engineer",
+      "url": "https://stripe.com/jobs/search?gh_jid=7594874",
+      "location": "Ireland Locations",
+      "team": "1140 Professional Services",
+      "fingerprint": "greenhouse:stripe:7594874"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7525715",
+      "title": "Integration Engineer (Japan)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7525715",
+      "location": "Japan Locations",
+      "team": "1140 Professional Services",
+      "fingerprint": "greenhouse:stripe:7525715"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6651831",
+      "title": "Integration Engineer, Professional Services",
+      "url": "https://stripe.com/jobs/search?gh_jid=6651831",
+      "location": "Canada Locations",
+      "team": "1140 Professional Services",
+      "fingerprint": "greenhouse:stripe:6651831"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7267668",
+      "title": "Integration Reliability Engineer, Technical Operations",
+      "url": "https://stripe.com/jobs/search?gh_jid=7267668",
+      "location": "Ireland Locations",
+      "team": "8556 LPM Core - Eng",
+      "fingerprint": "greenhouse:stripe:7267668"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7587254",
+      "title": "IT Governance, Risk & Compliance (GRC) Analyst, Luxembourg",
+      "url": "https://stripe.com/jobs/search?gh_jid=7587254",
+      "location": "Luxembourg Locations",
+      "team": "8505 Bridge - G&A",
+      "fingerprint": "greenhouse:stripe:7587254"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7079044",
+      "title": "Machine Learning Engineer, Payments ML Accelerator",
+      "url": "https://stripe.com/jobs/search?gh_jid=7079044",
+      "location": "US",
+      "team": "7112 Data Science",
+      "fingerprint": "greenhouse:stripe:7079044"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7629052",
+      "title": "Machine Learning Engineer, Stripe Assistant",
+      "url": "https://stripe.com/jobs/search?gh_jid=7629052",
+      "location": "US",
+      "team": "8212 ML Foundations",
+      "fingerprint": "greenhouse:stripe:7629052"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7634113",
+      "title": "Marketing Manager, SMB and Mid-Market - EMEA",
+      "url": "https://stripe.com/jobs/search?gh_jid=7634113",
+      "location": "Ireland Locations",
+      "team": "2312 Marketing - EMEA",
+      "fingerprint": "greenhouse:stripe:7634113"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7285974",
+      "title": "PhD Data Scientist, Intern",
+      "url": "https://stripe.com/jobs/search?gh_jid=7285974",
+      "location": "CA-Toronto",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7285974"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7216664",
+      "title": "PhD Machine Learning Engineer, Intern",
+      "url": "https://stripe.com/jobs/search?gh_jid=7216664",
+      "location": "US-NYC, US-Seattle, US-SF-HQ",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7216664"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7216668",
+      "title": "PhD Machine Learning Engineer, New Grad",
+      "url": "https://stripe.com/jobs/search?gh_jid=7216668",
+      "location": "US-NYC, US-Seattle, US-SF-HQ",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7216668"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7561053",
+      "title": "Product Manager, Banking as a Service",
+      "url": "https://stripe.com/jobs/search?gh_jid=7561053",
+      "location": "US",
+      "team": "8256 BaaS - PM",
+      "fingerprint": "greenhouse:stripe:7561053"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7564817",
+      "title": "Product Manager, Payment Records Platform",
+      "url": "https://stripe.com/jobs/search?gh_jid=7564817",
+      "location": "US",
+      "team": "8547 Cards Online - PM",
+      "fingerprint": "greenhouse:stripe:7564817"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6651889",
+      "title": "Product Manager, Stripe Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=6651889",
+      "location": "US",
+      "team": "8915 Core Tech Product Management",
+      "fingerprint": "greenhouse:stripe:6651889"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7440429",
+      "title": "Product Manager, Support Products - Support Experience",
+      "url": "https://stripe.com/jobs/search?gh_jid=7440429",
+      "location": "Ireland Locations",
+      "team": "4900 Support Eng & PM",
+      "fingerprint": "greenhouse:stripe:7440429"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7397265",
+      "title": "Product Manager, Terminal Device Expansion",
+      "url": "https://stripe.com/jobs/search?gh_jid=7397265",
+      "location": "US",
+      "team": "8258 Terminal - PM",
+      "fingerprint": "greenhouse:stripe:7397265"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7355652",
+      "title": "SaaS Operations Engineer",
+      "url": "https://stripe.com/jobs/search?gh_jid=7355652",
+      "location": "Ireland Locations",
+      "team": "7312 CorpTech Customer Success",
+      "fingerprint": "greenhouse:stripe:7355652"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7688908",
+      "title": "Salesforce Architect and Administrator",
+      "url": "https://stripe.com/jobs/search?gh_jid=7688908",
+      "location": "Canada Locations",
+      "team": "1140 Professional Services",
+      "fingerprint": "greenhouse:stripe:7688908"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7736171",
+      "title": "SDK Engineer (React/React Native), Privy",
+      "url": "https://stripe.com/jobs/search?gh_jid=7736171",
+      "location": "US",
+      "team": "9001 Privy - R&D",
+      "fingerprint": "greenhouse:stripe:7736171"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7477571",
+      "title": "Security Engineer, New Grad",
+      "url": "https://stripe.com/jobs/search?gh_jid=7477571",
+      "location": "US-Seattle",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7477571"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7457268",
+      "title": "Senior Integration Reliability Engineer, Technical Operations",
+      "url": "https://stripe.com/jobs/search?gh_jid=7457268",
+      "location": "Singapore Locations",
+      "team": "8546 MMS Platform - Eng",
+      "fingerprint": "greenhouse:stripe:7457268"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7746721",
+      "title": "Senior Staff Frontend Engineer, Merchant Experience",
+      "url": "https://stripe.com/jobs/search?gh_jid=7746721",
+      "location": "Canada Locations",
+      "team": "8414 MerchantXP - Eng",
+      "fingerprint": "greenhouse:stripe:7746721"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7409691",
+      "title": "Senior Staff Software Engineer,  Developer Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7409691",
+      "location": "US",
+      "team": "8126 Developer Infrastructure",
+      "fingerprint": "greenhouse:stripe:7409691"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7602338",
+      "title": "SEO Marketing Manager",
+      "url": "https://stripe.com/jobs/search?gh_jid=7602338",
+      "location": "United Kingdom Locations",
+      "team": "2314 Performance Marketing",
+      "fingerprint": "greenhouse:stripe:7602338"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7507904",
+      "title": "Software Engineer - Smart Contract, Bridge",
+      "url": "https://stripe.com/jobs/search?gh_jid=7507904",
+      "location": "US",
+      "team": "8504 Bridge - R&D",
+      "fingerprint": "greenhouse:stripe:7507904"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7277110",
+      "title": "Software Engineer, Bridge",
+      "url": "https://stripe.com/jobs/search?gh_jid=7277110",
+      "location": "US",
+      "team": "8504 Bridge - R&D",
+      "fingerprint": "greenhouse:stripe:7277110"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7618977",
+      "title": "Software Engineer, Core Technology",
+      "url": "https://stripe.com/jobs/search?gh_jid=7618977",
+      "location": "India Locations",
+      "team": "8127 Core Infrastructure",
+      "fingerprint": "greenhouse:stripe:7618977"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7529428",
+      "title": "Software Engineer, Data & AI",
+      "url": "https://stripe.com/jobs/search?gh_jid=7529428",
+      "location": "India Locations",
+      "team": "8122 Data Foundations",
+      "fingerprint": "greenhouse:stripe:7529428"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7230670",
+      "title": "Software Engineer, Data Orchestration",
+      "url": "https://stripe.com/jobs/search?gh_jid=7230670",
+      "location": "India Locations",
+      "team": "8123 Data Infrastructure",
+      "fingerprint": "greenhouse:stripe:7230670"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7600792",
+      "title": "Software Engineer, Experimental Projects",
+      "url": "https://stripe.com/jobs/search?gh_jid=7600792",
+      "location": "US",
+      "team": "5113 Experimental Bets - Core Tech",
+      "fingerprint": "greenhouse:stripe:7600792"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7206494",
+      "title": "Software Engineer, Intern",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206494",
+      "location": "IE-Dublin",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7206494"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7206401",
+      "title": "Software Engineer, Intern",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206401",
+      "location": "SG-Singapore",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7206401"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7532256",
+      "title": "Software Engineer, Intern",
+      "url": "https://stripe.com/jobs/search?gh_jid=7532256",
+      "location": "AU-Sydney",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7532256"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7360840",
+      "title": "Software Engineer, Intern",
+      "url": "https://stripe.com/jobs/search?gh_jid=7360840",
+      "location": "GB-London",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7360840"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7210115",
+      "title": "Software Engineer, Intern (Summer)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7210115",
+      "location": "US",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7210115"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7543868",
+      "title": "Software Engineer, Internal Systems",
+      "url": "https://stripe.com/jobs/search?gh_jid=7543868",
+      "location": "India Locations",
+      "team": "7420 Finance Systems",
+      "fingerprint": "greenhouse:stripe:7543868"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6099228",
+      "title": "Software Engineer, Machine Learning Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=6099228",
+      "location": "Canada Locations",
+      "team": "8212 ML Foundations",
+      "fingerprint": "greenhouse:stripe:6099228"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7376835",
+      "title": "Software Engineer, Machine Learning Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7376835",
+      "location": "Canada Locations",
+      "team": "8212 ML Foundations",
+      "fingerprint": "greenhouse:stripe:7376835"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7555999",
+      "title": "Software Engineer, Money as a Service",
+      "url": "https://stripe.com/jobs/search?gh_jid=7555999",
+      "location": "Singapore Locations",
+      "team": "8528 FSB Risk and Capital Markets",
+      "fingerprint": "greenhouse:stripe:7555999"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7208537",
+      "title": "Software Engineer, Money Movement",
+      "url": "https://stripe.com/jobs/search?gh_jid=7208537",
+      "location": "United Kingdom Locations",
+      "team": "8546 MMS Platform - Eng",
+      "fingerprint": "greenhouse:stripe:7208537"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7206515",
+      "title": "Software Engineer, New Grad",
+      "url": "https://stripe.com/jobs/search?gh_jid=7206515",
+      "location": "IE-Dublin",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7206515"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7529787",
+      "title": "Software Engineer, Payments",
+      "url": "https://stripe.com/jobs/search?gh_jid=7529787",
+      "location": "Singapore Locations",
+      "team": "8548 Payins - Eng",
+      "fingerprint": "greenhouse:stripe:7529787"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6717520",
+      "title": "Software Engineer, Payments and Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=6717520",
+      "location": "Ireland Locations",
+      "team": "8216 Risk Onboarding and Trusted Users",
+      "fingerprint": "greenhouse:stripe:6717520"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7545459",
+      "title": "Software Engineer, Product Security Data Platforms",
+      "url": "https://stripe.com/jobs/search?gh_jid=7545459",
+      "location": "US",
+      "team": "8612 Security Infrastructure",
+      "fingerprint": "greenhouse:stripe:7545459"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7396679",
+      "title": "Software Engineer, Secrets Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7396679",
+      "location": "US",
+      "team": "8612 Security Infrastructure",
+      "fingerprint": "greenhouse:stripe:7396679"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6967304",
+      "title": "Software Engineer,Service Ecosystem Sustainability",
+      "url": "https://stripe.com/jobs/search?gh_jid=6967304",
+      "location": "India Locations",
+      "team": "8126 Developer Infrastructure",
+      "fingerprint": "greenhouse:stripe:6967304"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7176977",
+      "title": "Software Engineering, New Grad",
+      "url": "https://stripe.com/jobs/search?gh_jid=7176977",
+      "location": "SG-Singapore",
+      "team": "5112 General University",
+      "fingerprint": "greenhouse:stripe:7176977"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7555647",
+      "title": "SOX IT Controls Lead",
+      "url": "https://stripe.com/jobs/search?gh_jid=7555647",
+      "location": "US",
+      "team": "6482 SOX",
+      "fingerprint": "greenhouse:stripe:7555647"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7380371",
+      "title": "Specialist Solutions Architect, Money Management",
+      "url": "https://stripe.com/jobs/search?gh_jid=7380371",
+      "location": "US",
+      "team": "1150 Solutions Architecture",
+      "fingerprint": "greenhouse:stripe:7380371"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7365914",
+      "title": "Specialist Solutions Architect, Radar (Fraud/Risk)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7365914",
+      "location": "US",
+      "team": "1150 Solutions Architecture",
+      "fingerprint": "greenhouse:stripe:7365914"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7568328",
+      "title": "Staff Data Scientist",
+      "url": "https://stripe.com/jobs/search?gh_jid=7568328",
+      "location": "US",
+      "team": "7112 Data Science",
+      "fingerprint": "greenhouse:stripe:7568328"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7716032",
+      "title": "Staff Engineer - Production Eng",
+      "url": "https://stripe.com/jobs/search?gh_jid=7716032",
+      "location": "Ireland Locations",
+      "team": "8186 Service Platform",
+      "fingerprint": "greenhouse:stripe:7716032"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7280343",
+      "title": "Staff Engineer, Experimental Projects",
+      "url": "https://stripe.com/jobs/search?gh_jid=7280343",
+      "location": "US",
+      "team": "5113 Experimental Bets - Core Tech",
+      "fingerprint": "greenhouse:stripe:7280343"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7714564",
+      "title": "Staff Engineer, Infrastructure",
+      "url": "https://stripe.com/jobs/search?gh_jid=7714564",
+      "location": "India Locations",
+      "team": "8129 High Assurance Engineering",
+      "fingerprint": "greenhouse:stripe:7714564"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7416957",
+      "title": "Staff Engineer, Payments",
+      "url": "https://stripe.com/jobs/search?gh_jid=7416957",
+      "location": "US",
+      "team": "8556 LPM Core - Eng",
+      "fingerprint": "greenhouse:stripe:7416957"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7124531",
+      "title": "Staff Engineer, Usage Based Billing",
+      "url": "https://stripe.com/jobs/search?gh_jid=7124531",
+      "location": "US",
+      "team": "8412 Billing Products",
+      "fingerprint": "greenhouse:stripe:7124531"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7600571",
+      "title": "Staff Engineer, Workflow Engine",
+      "url": "https://stripe.com/jobs/search?gh_jid=7600571",
+      "location": "US",
+      "team": "8186 Service Platform",
+      "fingerprint": "greenhouse:stripe:7600571"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7492950",
+      "title": "Staff Full Stack Engineer, Payments Dashboard",
+      "url": "https://stripe.com/jobs/search?gh_jid=7492950",
+      "location": "US",
+      "team": "8513 Payments Experience - Eng",
+      "fingerprint": "greenhouse:stripe:7492950"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7570242",
+      "title": "Staff Product Manager, Global Expansion",
+      "url": "https://stripe.com/jobs/search?gh_jid=7570242",
+      "location": "India Locations",
+      "team": "8262 APAC - PM",
+      "fingerprint": "greenhouse:stripe:7570242"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6892149",
+      "title": "Staff Security Engineer, Security Partnerships",
+      "url": "https://stripe.com/jobs/search?gh_jid=6892149",
+      "location": "US",
+      "team": "8614 Office of the CISO & Partnership",
+      "fingerprint": "greenhouse:stripe:6892149"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "5846766",
+      "title": "Staff Software Engineer, Billing Subscriptions",
+      "url": "https://stripe.com/jobs/search?gh_jid=5846766",
+      "location": "Canada Locations",
+      "team": "8412 Billing Products",
+      "fingerprint": "greenhouse:stripe:5846766"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7705412",
+      "title": "Staff Software Engineer, Terminal Developer Productivity",
+      "url": "https://stripe.com/jobs/search?gh_jid=7705412",
+      "location": "US",
+      "team": "8512 Terminal - Eng",
+      "fingerprint": "greenhouse:stripe:7705412"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7397878",
+      "title": "Strategy & Operations Analyst, Customer Success",
+      "url": "https://stripe.com/jobs/search?gh_jid=7397878",
+      "location": "US",
+      "team": "1520 Sales Operations (SS&O)",
+      "fingerprint": "greenhouse:stripe:7397878"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7528441",
+      "title": "Technical Account Manager (Greater China)",
+      "url": "https://stripe.com/jobs/search?gh_jid=7528441",
+      "location": "Singapore Locations",
+      "team": "4148 Technical Account Management, Support & Services - APAC",
+      "fingerprint": "greenhouse:stripe:7528441"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7650073",
+      "title": "Technical Account Manager, Bridge",
+      "url": "https://stripe.com/jobs/search?gh_jid=7650073",
+      "location": "US",
+      "team": "8506 Bridge - S&O",
+      "fingerprint": "greenhouse:stripe:7650073"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7653021",
+      "title": "Technical Program Manager",
+      "url": "https://stripe.com/jobs/search?gh_jid=7653021",
+      "location": "Singapore Locations",
+      "team": "8548 Payins - Eng",
+      "fingerprint": "greenhouse:stripe:7653021"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7417090",
+      "title": "Technical Program Manager,  Identity and Access Management Programs",
+      "url": "https://stripe.com/jobs/search?gh_jid=7417090",
+      "location": "US",
+      "team": "8414 MerchantXP - Eng",
+      "fingerprint": "greenhouse:stripe:7417090"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7749540",
+      "title": "Technical Program Manager, Enterprise Readiness Programs",
+      "url": "https://stripe.com/jobs/search?gh_jid=7749540",
+      "location": "Canada Locations",
+      "team": "8414 MerchantXP - Eng",
+      "fingerprint": "greenhouse:stripe:7749540"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7680365",
+      "title": "Technical Program Manager, Internal Systems",
+      "url": "https://stripe.com/jobs/search?gh_jid=7680365",
+      "location": "US",
+      "team": "8910 Technical Program Management",
+      "fingerprint": "greenhouse:stripe:7680365"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "6932491",
+      "title": "Technical Program Manager, Payments Experiences",
+      "url": "https://stripe.com/jobs/search?gh_jid=6932491",
+      "location": "US",
+      "team": "8512 Terminal - Eng",
+      "fingerprint": "greenhouse:stripe:6932491"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7685855",
+      "title": "Technical Program Manager, Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=7685855",
+      "location": "US",
+      "team": "8259 Risk Tech Program Management & Other",
+      "fingerprint": "greenhouse:stripe:7685855"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7678655",
+      "title": "Technical Program Manager, Risk",
+      "url": "https://stripe.com/jobs/search?gh_jid=7678655",
+      "location": "India Locations",
+      "team": "8259 Risk Tech Program Management & Other",
+      "fingerprint": "greenhouse:stripe:7678655"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7377101",
+      "title": "Technical Solutions Engineer",
+      "url": "https://stripe.com/jobs/search?gh_jid=7377101",
+      "location": "CA-Remote-British Columbia",
+      "team": "4150 Technical Support",
+      "fingerprint": "greenhouse:stripe:7377101"
+    },
+    {
+      "source": "greenhouse",
+      "board": "stripe",
+      "external_id": "7463165",
+      "title": "US CCO & BSA Officer, Bridge",
+      "url": "https://stripe.com/jobs/search?gh_jid=7463165",
+      "location": "US",
+      "team": "8505 Bridge - G&A",
+      "fingerprint": "greenhouse:stripe:7463165"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4376135321",
+      "title": "AI/Machine Learning Engineer Intern",
+      "url": "https://www.linkedin.com/jobs/view/ai-machine-learning-engineer-intern-at-handshake-4376135321",
+      "location": "San Francisco, CA",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4376135321"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4382104625",
+      "title": "Full Stack Developer Intern",
+      "url": "https://www.linkedin.com/jobs/view/full-stack-developer-intern-at-precisely-4382104625",
+      "location": "United States",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4382104625"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4386517218",
+      "title": "Intern, Software Engineering - Summer Internship",
+      "url": "https://www.linkedin.com/jobs/view/intern-software-engineering-summer-internship-at-gen-4386517218",
+      "location": "New York, NY",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4386517218"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4358274580",
+      "title": "Internship, Software Engineer, Data Platforms (Summer 2026)",
+      "url": "https://www.linkedin.com/jobs/view/internship-software-engineer-data-platforms-summer-2026-at-tesla-4358274580",
+      "location": "Palo Alto, CA",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4358274580"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4292560235",
+      "title": "Junior Software Developer Intern",
+      "url": "https://www.linkedin.com/jobs/view/junior-software-developer-intern-at-prescient-edge-4292560235",
+      "location": "McLean, VA",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4292560235"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4294272862",
+      "title": "Machine Learning & Artificial Intelligence Engineering Internship – Summer 2026",
+      "url": "https://www.linkedin.com/jobs/view/machine-learning-artificial-intelligence-engineering-internship-%E2%80%93-summer-2026-at-qualcomm-4294272862",
+      "location": "New York, NY",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4294272862"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4294274828",
+      "title": "Machine Learning & Artificial Intelligence Engineering Internship – Summer 2026",
+      "url": "https://www.linkedin.com/jobs/view/machine-learning-artificial-intelligence-engineering-internship-%E2%80%93-summer-2026-at-qualcomm-4294274828",
+      "location": "Santa Clara, CA",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4294274828"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4323750983",
+      "title": "Machine Learning Engineer Intern",
+      "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-at-tinder-4323750983",
+      "location": "Palo Alto, CA",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4323750983"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4382115210",
+      "title": "Python Developer Intern",
+      "url": "https://www.linkedin.com/jobs/view/python-developer-intern-at-precisely-4382115210",
+      "location": "United States",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4382115210"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4380521037",
+      "title": "Software Engineer Internship - Summer 2026",
+      "url": "https://www.linkedin.com/jobs/view/software-engineer-internship-summer-2026-at-aviture-4380521037",
+      "location": "Omaha, NE",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4380521037"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4378421997",
+      "title": "Software Engineering Internship - Summer 2026",
+      "url": "https://www.linkedin.com/jobs/view/software-engineering-internship-summer-2026-at-qualcomm-4378421997",
+      "location": "New York, NY",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4378421997"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4316102089",
+      "title": "Software Engineering Internship - Summer 2026",
+      "url": "https://www.linkedin.com/jobs/view/software-engineering-internship-summer-2026-at-qualcomm-4316102089",
+      "location": "Santa Clara, CA",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4316102089"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4316100103",
+      "title": "Software Engineering Internship - Summer 2026",
+      "url": "https://www.linkedin.com/jobs/view/software-engineering-internship-summer-2026-at-qualcomm-4316100103",
+      "location": "Irvine, CA",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4316100103"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4378420951",
+      "title": "Software Engineering Internship - Summer 2026",
+      "url": "https://www.linkedin.com/jobs/view/software-engineering-internship-summer-2026-at-qualcomm-4378420951",
+      "location": "San Diego, CA",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4378420951"
+    },
+    {
+      "source": "linkedin",
+      "board": "swe-ml-intern-us",
+      "external_id": "4316102090",
+      "title": "Software Engineering Internship - Summer 2026",
+      "url": "https://www.linkedin.com/jobs/view/software-engineering-internship-summer-2026-at-qualcomm-4316102090",
+      "location": "Seattle, WA",
+      "team": null,
+      "fingerprint": "linkedin:swe-ml-intern-us:4316102090"
+    }
+  ]
+}
