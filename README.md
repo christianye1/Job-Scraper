@@ -65,10 +65,10 @@ python -m job_scraper --help
 
 | Output | What it is |
 |--------|------------|
-| **Terminal** | By default, only rows that are **new** since the last run (same as before). With `--all`, every match from this fetch is printed. |
-| `data/seen_jobs.json` | List of **fingerprints** (source + board + id) so the tool knows what you have already seen. Not full job text. |
-| `data/output/jobs_latest.json` | **Full snapshot** of every job that matched filters on this run (structured JSON with metadata). Overwritten each run unless you use `--no-save`. |
-| `data/output/jobs.md` | Same snapshot as a **Markdown table** so GitHub can render it when you browse the file in the repo. |
+| **Terminal** | By default, only rows that are **new vs the previous run** (fingerprints not in last run’s state). With `--all`, every match from this fetch is printed. |
+| `data/seen_jobs.json` | After each run this file is **replaced** with fingerprints **only for jobs found in that run**. Closed or missing listings drop off automatically; nothing historical accumulates. Used to compute “new” on the **next** run. |
+| `data/output/jobs_latest.json` | **Full replace** every run: current snapshot only, grouped into **`intern`**, **`new_grad`**, and **`other`**. Skipped with `--no-save`. |
+| `data/output/jobs.md` | **Full replace** every run (no append): same snapshot as Markdown sections/tables. Skipped with `--no-save`. |
 
 Snapshots live under **`data/output/`** so they stay separate from state (`seen_jobs.json` in `data/`).
 
@@ -78,6 +78,8 @@ Putting scraped listings **inside `README.md` itself** is uncommon: the README i
 
 Edit `config/boards.json`:
 
+- **`location_filter`** (optional): string array. A job passes if **any** substring appears in **location, title, or team** (case-insensitive), **or** if `remote_germany` applies (see below). Omit or use `[]` if you only rely on remote-Germany matching.
+- **`remote_germany`** (optional, boolean, default `false`): if `true`, also keep jobs whose text looks like **remote / hybrid / WFH** *and* **Germany-related** (e.g. Germany, Deutschland, Berlin, Brandenburg, DACH, common Bundesländer hints). This is meant to include roles like “Remote (Germany)” without letting in generic worldwide remote spam.
 - **`greenhouse`:** string array of board tokens from `https://job-boards.greenhouse.io/{token}`.
 - **`lever`:** string array of company slugs from `https://jobs.lever.co/{company}`.
 - **`indeed`:** array of objects:
@@ -95,6 +97,16 @@ Omit `indeed` or `linkedin` or use `[]` if you do not want those sources.
 ### Which roles and levels count as a match
 
 Rules live in `job_scraper/filters.py` (`ROLE_KEYWORDS` and `LEVEL_KEYWORDS`). A job must match **at least one** pattern from each group in the title (and description when the source provides one). Tweak the regexes there for broader or stricter matching.
+
+### Intern vs new grad in output
+
+After region filtering, listings are **classified from the job title** (`job_scraper/career_tier.py`):
+
+- **Internships** — internship / intern / co-op / Praktikum / Werkstudent, etc.
+- **New grad / entry level** — new grad, entry level, junior, associate engineer, graduate engineer, early career, etc. (intern keywords win if both could match.)
+- **Other matches** — matched your role/level filters but did not fit the two buckets (tune patterns if you want fewer here).
+
+Terminal output and `data/output/jobs.md` use these **section headers**; `jobs_latest.json` exposes **`intern`**, **`new_grad`**, and **`other`** arrays.
 
 ## Automation
 

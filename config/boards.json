@@ -1,4 +1,9 @@
 {
+  "location_filter": [
+    "Berlin",
+    "Brandenburg"
+  ],
+  "remote_germany": true,
   "greenhouse": [
     "stripe",
     "airbnb",
@@ -12,15 +17,48 @@
   "indeed": [
     {
       "q": "software engineer intern machine learning",
-      "l": "United States",
-      "label": "swe-ml-intern-us"
+      "l": "Berlin",
+      "label": "indeed-intern-berlin"
+    },
+    {
+      "q": "software engineer intern machine learning",
+      "l": "Brandenburg",
+      "label": "indeed-intern-brandenburg"
+    },
+    {
+      "q": "software engineer new grad junior machine learning",
+      "l": "Berlin",
+      "label": "indeed-newgrad-berlin"
+    },
+    {
+      "q": "software engineer new grad junior machine learning",
+      "l": "Brandenburg",
+      "label": "indeed-newgrad-brandenburg"
     }
   ],
   "linkedin": [
     {
       "keywords": "software engineer intern OR machine learning intern",
-      "location": "United States",
-      "label": "swe-ml-intern-us",
+      "location": "Berlin, Germany",
+      "label": "linkedin-intern-berlin",
+      "pages": 2
+    },
+    {
+      "keywords": "software engineer intern OR machine learning intern",
+      "location": "Brandenburg, Germany",
+      "label": "linkedin-intern-brandenburg",
+      "pages": 2
+    },
+    {
+      "keywords": "software engineer new grad OR junior developer OR graduate engineer machine learning",
+      "location": "Berlin, Germany",
+      "label": "linkedin-newgrad-berlin",
+      "pages": 2
+    },
+    {
+      "keywords": "software engineer new grad OR junior developer OR graduate engineer machine learning",
+      "location": "Brandenburg, Germany",
+      "label": "linkedin-newgrad-brandenburg",
       "pages": 2
     }
   ]

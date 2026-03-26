@@ -7,8 +7,10 @@ from pathlib import Path
 
 import httpx
 
+from job_scraper.career_tier import career_tier
 from job_scraper.models import JobListing
 from job_scraper.persist import write_run_outputs
+from job_scraper.region import passes_region_filter
 from job_scraper.sources import (
     fetch_greenhouse_board,
     fetch_indeed_search,
@@ -36,8 +38,18 @@ def _load_board_config(path: Path) -> tuple[
     list[tuple[str, str, str]],
     list[tuple[str, str, str, int]],
     list[str],
+    list[str],
+    bool,
 ]:
     raw = json.loads(path.read_text(encoding="utf-8"))
+    raw_filter = raw.get("location_filter")
+    if raw_filter is None:
+        location_filter: list[str] = []
+    elif isinstance(raw_filter, list):
+        location_filter = [str(x).strip() for x in raw_filter if str(x).strip()]
+    else:
+        raise ValueError("boards.json 'location_filter' must be an array of strings when present")
+    remote_germany = bool(raw.get("remote_germany", False))
     gh = raw.get("greenhouse") or []
     lv = raw.get("lever") or []
     if not isinstance(gh, list) or not isinstance(lv, list):
@@ -86,13 +98,15 @@ def _load_board_config(path: Path) -> tuple[
             pages = 2
         linkedin_rows.append((keywords, loc, label, pages))
 
-    return greenhouse_boards, lever_boards, indeed_rows, linkedin_rows, warnings
+    return greenhouse_boards, lever_boards, indeed_rows, linkedin_rows, warnings, location_filter, remote_germany
 
 
 async def _collect_all(
     client: httpx.AsyncClient, boards_path: Path
 ) -> tuple[list[JobListing], list[str], list[str]]:
-    greenhouse_boards, lever_boards, indeed_rows, linkedin_rows, pre_warnings = _load_board_config(boards_path)
+    greenhouse_boards, lever_boards, indeed_rows, linkedin_rows, pre_warnings, location_filter, remote_germany = (
+        _load_board_config(boards_path)
+    )
     tasks: list[tuple[str, asyncio.Task[list[JobListing]]]] = []
     for b in greenhouse_boards:
         t = asyncio.create_task(fetch_greenhouse_board(client, b))
@@ -115,6 +129,16 @@ async def _collect_all(
             listings.extend(await t)
         except Exception as e:
             errors.append(f"{label}: {e}")
+    if location_filter or remote_germany:
+        before = len(listings)
+        listings = [
+            j for j in listings if passes_region_filter(j, location_filter, remote_germany=remote_germany)
+        ]
+        print(
+            f"Region filter needles={location_filter!r} remote_germany={remote_germany}: "
+            f"kept {len(listings)}/{before}",
+            flush=True,
+        )
     listings.sort(key=lambda j: (j.source, j.board, j.title.lower()))
     return listings, errors, pre_warnings
 
@@ -132,23 +156,40 @@ async def run_async(
     json_out: Path | None,
     md_out: Path | None,
 ) -> int:
-    seen = load_seen(state_path)
+    seen_before = load_seen(state_path)
     async with httpx.AsyncClient(headers={"User-Agent": _BROWSER_UA}, follow_redirects=True) as client:
         listings, errors, cfg_warnings = await _collect_all(client, boards_path)
     for msg in cfg_warnings:
         print(f"Config: {msg}", flush=True)
     for msg in errors:
         print(f"Warning: {msg}", flush=True)
-    new_on_this_run = [j for j in listings if j.fingerprint not in seen]
+    new_on_this_run = [j for j in listings if j.fingerprint not in seen_before]
     if only_new:
         to_show = new_on_this_run
     else:
         to_show = listings
+    buckets: dict[str, list[JobListing]] = {"intern": [], "new_grad": [], "other": []}
     for j in to_show:
-        print(_format_line(j))
-        print()
-    seen.update(j.fingerprint for j in listings)
-    save_seen(state_path, seen)
+        buckets[career_tier(j.title)].append(j)
+    section_titles = (
+        ("intern", "Internships"),
+        ("new_grad", "New grad / entry level"),
+        ("other", "Other matches"),
+    )
+    printed_any = False
+    for key, title in section_titles:
+        chunk = buckets[key]
+        if not chunk:
+            continue
+        printed_any = True
+        print(f"\n=== {title} ({len(chunk)}) ===\n", flush=True)
+        for j in chunk:
+            print(_format_line(j))
+            print()
+    if not printed_any:
+        print("(No jobs to show for this run.)\n", flush=True)
+    # Replace state with this run only — drop fingerprints for jobs that vanished so nothing stale accumulates.
+    save_seen(state_path, {j.fingerprint for j in listings})
     if json_out is not None and md_out is not None:
         write_run_outputs(
             json_path=json_out,
