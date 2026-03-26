@@ -4,6 +4,11 @@
     "Brandenburg"
   ],
   "remote_germany": true,
+  "gemini": {
+    "enabled": true,
+    "model": "gemini-2.0-flash",
+    "prompt_extra": ""
+  },
   "greenhouse": [
     "stripe",
     "airbnb",

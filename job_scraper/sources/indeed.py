@@ -40,6 +40,16 @@ def _indeed_external_id(guid: str | None, link: str) -> str:
     return unquote(link)
 
 
+def _split_indeed_title(raw: str) -> tuple[str, str | None]:
+    for sep in (" – ", " — ", " - "):
+        if sep in raw:
+            role, company = raw.rsplit(sep, 1)
+            role, company = role.strip(), company.strip()
+            if role and company:
+                return role, company
+    return raw.strip(), None
+
+
 def _parse_rss_items(xml_bytes: bytes) -> list[tuple[str, str, str, str | None]]:
     root = ET.fromstring(xml_bytes)
     out: list[tuple[str, str, str, str | None]] = []
@@ -85,7 +95,8 @@ async def fetch_indeed_search(client: httpx.AsyncClient, q: str, l: str, label: 
         )
     items = _parse_rss_items(body)
     listings: list[JobListing] = []
-    for title, link, description, guid in items:
+    for raw_title, link, description, guid in items:
+        title, company_guess = _split_indeed_title(raw_title)
         desc_plain = _plain(description)
         if not matches_target_role(title, desc_plain):
             continue
@@ -95,10 +106,12 @@ async def fetch_indeed_search(client: httpx.AsyncClient, q: str, l: str, label: 
                 source="indeed",
                 board=label,
                 external_id=eid,
-                title=title.strip(),
+                title=title,
                 url=link.strip(),
                 location=l or None,
                 team=None,
+                company=company_guess,
+                salary=None,
             )
         )
     return listings

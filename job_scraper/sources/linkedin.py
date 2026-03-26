@@ -62,6 +62,8 @@ async def fetch_linkedin_search(
                 continue
             loc_el = div.select_one("span.job-search-card__location")
             loc = loc_el.get_text(strip=True) if loc_el else None
+            company_el = div.select_one("h4.base-search-card__subtitle")
+            company = company_el.get_text(strip=True) if company_el else None
             seen_ids.add(job_id)
             listings.append(
                 JobListing(
@@ -72,6 +74,8 @@ async def fetch_linkedin_search(
                     url=href,
                     location=loc,
                     team=None,
+                    company=company,
+                    salary=None,
                 )
             )
             page_added += 1

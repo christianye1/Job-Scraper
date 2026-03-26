@@ -12,6 +12,8 @@ class JobListing:
     url: str
     location: str | None
     team: str | None
+    company: str | None
+    salary: str | None
 
     @property
     def fingerprint(self) -> str:

@@ -34,7 +34,7 @@ _GERMANY_HINTS = (
 
 
 def _hay(job: JobListing) -> str:
-    parts = [job.location or "", job.title or "", job.team or ""]
+    parts = [job.company or "", job.location or "", job.title or "", job.team or "", job.salary or ""]
     return "\n".join(parts).casefold()
 
 

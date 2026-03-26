@@ -3,15 +3,18 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+import os
 from pathlib import Path
 
 import httpx
+from dotenv import load_dotenv
 
 from job_scraper.career_tier import career_tier
 from job_scraper.models import JobListing
 from job_scraper.persist import write_run_outputs
 from job_scraper.region import passes_region_filter
 from job_scraper.sources import (
+    fetch_gemini_suggestions,
     fetch_greenhouse_board,
     fetch_indeed_search,
     fetch_lever_board,
@@ -40,6 +43,9 @@ def _load_board_config(path: Path) -> tuple[
     list[str],
     list[str],
     bool,
+    bool,
+    str,
+    str | None,
 ]:
     raw = json.loads(path.read_text(encoding="utf-8"))
     raw_filter = raw.get("location_filter")
@@ -98,15 +104,48 @@ def _load_board_config(path: Path) -> tuple[
             pages = 2
         linkedin_rows.append((keywords, loc, label, pages))
 
-    return greenhouse_boards, lever_boards, indeed_rows, linkedin_rows, warnings, location_filter, remote_germany
+    gemini_enabled = False
+    gemini_model = "gemini-2.0-flash"
+    gemini_prompt_extra: str | None = None
+    raw_gem = raw.get("gemini")
+    if isinstance(raw_gem, dict):
+        gemini_enabled = bool(raw_gem.get("enabled", False))
+        gemini_model = str(raw_gem.get("model") or gemini_model).strip() or gemini_model
+        extra = raw_gem.get("prompt_extra")
+        if extra is not None and str(extra).strip():
+            gemini_prompt_extra = str(extra).strip()
+    elif raw_gem is True:
+        gemini_enabled = True
+
+    return (
+        greenhouse_boards,
+        lever_boards,
+        indeed_rows,
+        linkedin_rows,
+        warnings,
+        location_filter,
+        remote_germany,
+        gemini_enabled,
+        gemini_model,
+        gemini_prompt_extra,
+    )
 
 
 async def _collect_all(
     client: httpx.AsyncClient, boards_path: Path
 ) -> tuple[list[JobListing], list[str], list[str]]:
-    greenhouse_boards, lever_boards, indeed_rows, linkedin_rows, pre_warnings, location_filter, remote_germany = (
-        _load_board_config(boards_path)
-    )
+    (
+        greenhouse_boards,
+        lever_boards,
+        indeed_rows,
+        linkedin_rows,
+        pre_warnings,
+        location_filter,
+        remote_germany,
+        gemini_enabled,
+        gemini_model,
+        gemini_prompt_extra,
+    ) = _load_board_config(boards_path)
     tasks: list[tuple[str, asyncio.Task[list[JobListing]]]] = []
     for b in greenhouse_boards:
         t = asyncio.create_task(fetch_greenhouse_board(client, b))
@@ -122,6 +161,17 @@ async def _collect_all(
         lab = label or keywords[:32]
         t = asyncio.create_task(fetch_linkedin_search(client, keywords, loc, lab, pages=pages))
         tasks.append((f"linkedin:{lab}", t))
+    if gemini_enabled:
+        gkey = (os.environ.get("GEMINI_API_KEY") or "").strip()
+        if not gkey:
+            pre_warnings = [
+                *pre_warnings,
+                "gemini: enabled in boards.json but GEMINI_API_KEY is not set; skipped",
+            ]
+        else:
+            t = asyncio.create_task(fetch_gemini_suggestions(gkey, gemini_model, gemini_prompt_extra))
+            tasks.append(("gemini", t))
+    gemini_scheduled = any(lab == "gemini" for lab, _ in tasks)
     listings: list[JobListing] = []
     errors: list[str] = []
     for label, t in tasks:
@@ -139,13 +189,20 @@ async def _collect_all(
             f"kept {len(listings)}/{before}",
             flush=True,
         )
-    listings.sort(key=lambda j: (j.source, j.board, j.title.lower()))
+    if gemini_scheduled:
+        g_n = sum(1 for j in listings if j.source == "gemini")
+        print(f"Gemini: {g_n} listing(s) left after merging with other sources + region filters.", flush=True)
+    listings.sort(
+        key=lambda j: ((j.company or "").lower(), j.source, j.title.lower()),
+    )
     return listings, errors, pre_warnings
 
 
 def _format_line(j: JobListing) -> str:
+    co = f"{j.company} — " if j.company else ""
     loc = f" | {j.location}" if j.location else ""
-    return f"[{j.source}:{j.board}] {j.title}{loc}\n   {j.url}"
+    sal = f" | {j.salary}" if j.salary else ""
+    return f"[{j.source}] {co}{j.title}{loc}{sal}\n   {j.url}"
 
 
 async def run_async(
@@ -203,8 +260,9 @@ async def run_async(
 
 
 def main() -> None:
+    load_dotenv(_ROOT / ".env")
     p = argparse.ArgumentParser(
-        description="Fetch SWE/ML/AI intern and entry-level jobs (Greenhouse, Lever, Indeed RSS, LinkedIn guest search)."
+        description="Fetch SWE/ML/AI intern and entry-level jobs (ATS APIs, Indeed, LinkedIn, optional Gemini)."
     )
     p.add_argument("--config", type=Path, default=DEFAULT_CONFIG, help="Path to boards.json")
     p.add_argument("--state", type=Path, default=DEFAULT_STATE, help="Path to seen job ids JSON")

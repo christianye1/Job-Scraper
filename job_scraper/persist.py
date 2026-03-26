@@ -13,10 +13,12 @@ def _listing_dict(j: JobListing) -> dict[str, object]:
         "source": j.source,
         "board": j.board,
         "external_id": j.external_id,
+        "company": j.company,
         "title": j.title,
         "url": j.url,
         "location": j.location,
         "team": j.team,
+        "salary": j.salary,
         "fingerprint": j.fingerprint,
         "career_tier": career_tier(j.title),
     }
@@ -30,8 +32,8 @@ def _md_cell(s: str | None) -> str:
 
 def _md_table_rows(listings: list[JobListing]) -> list[str]:
     lines = [
-        "| Source | Board | Title | Location | Link |",
-        "|--------|-------|-------|----------|------|",
+        "| Company | Title | Location | Salary | Source | Link |",
+        "|---------|-------|----------|--------|--------|------|",
     ]
     for j in listings:
         link = f"[Apply]({j.url})" if j.url else ""
@@ -39,10 +41,11 @@ def _md_table_rows(listings: list[JobListing]) -> list[str]:
             "| "
             + " | ".join(
                 [
-                    _md_cell(j.source),
-                    _md_cell(j.board),
+                    _md_cell(j.company),
                     _md_cell(j.title),
                     _md_cell(j.location),
+                    _md_cell(j.salary),
+                    _md_cell(j.source),
                     link.replace("|", "\\|"),
                 ]
             )

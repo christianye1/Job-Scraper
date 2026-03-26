@@ -7,6 +7,7 @@ Sources:
 - **Greenhouse** and **Lever** — official JSON APIs per company board
 - **Indeed** — RSS for a search query (`q` / optional `l`); see limitations below
 - **LinkedIn** — public guest job-search endpoint that returns HTML snippets (no login)
+- **Gemini** (optional) — Google AI suggests a small JSON digest (not live scraping); needs `GEMINI_API_KEY` and `"gemini": { "enabled": true }` in config. When it runs you will see **`Gemini: calling API…`** and counts in the terminal; rows also appear with **Source** `gemini` in `data/output/jobs.md` / JSON.
 
 ## Requirements
 
@@ -23,43 +24,31 @@ source .venv/bin/activate   # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+**Gemini API key (optional):** Copy `.env.example` to `.env` in the **project root** (next to this README). Set `GEMINI_API_KEY=your_key_here`. `.env` is gitignored. You can also `export GEMINI_API_KEY=...` in the terminal instead.
+
 ## How to run
 
-**Default:** print only jobs that were **not** in the previous run (uses a saved list of IDs):
+From the project root, with the venv activated (or use `.venv/bin/python` as below):
 
 ```bash
 python -m job_scraper
-```
-
-**Print every matching job** on this run (ignore “new since last time” for display):
-
-```bash
 python -m job_scraper --all
-```
-
-**Custom paths** for board list or state file:
-
-```bash
-python -m job_scraper --config ./config/boards.json --state ./data/seen_jobs.json
-```
-
-**Do not write snapshot files** (only update `seen_jobs.json` and print to the terminal):
-
-```bash
-python -m job_scraper --no-save
-```
-
-**Custom snapshot paths** (defaults: `data/output/jobs_latest.json`, `data/output/jobs.md`):
-
-```bash
-python -m job_scraper --json-out ./data/output/custom.json --md-out ./data/output/custom.md
-```
-
-**Help:**
-
-```bash
 python -m job_scraper --help
 ```
+
+**Without** activating the venv each time, you can still call the project interpreter directly:
+
+```bash
+.venv/bin/python -m job_scraper
+```
+
+**Optional:** add to `~/.zshrc` (adjust the path) so one short command `cd`s into the repo and runs the scraper:
+
+```bash
+alias run-jobs='cd /path/to/Job-Scraper && .venv/bin/python -m job_scraper'
+```
+
+Then use `run-jobs`, `run-jobs --all`, etc. No extra files in the repo are required.
 
 ### Where results go
 
@@ -67,8 +56,8 @@ python -m job_scraper --help
 |--------|------------|
 | **Terminal** | By default, only rows that are **new vs the previous run** (fingerprints not in last run’s state). With `--all`, every match from this fetch is printed. |
 | `data/seen_jobs.json` | After each run this file is **replaced** with fingerprints **only for jobs found in that run**. Closed or missing listings drop off automatically; nothing historical accumulates. Used to compute “new” on the **next** run. |
-| `data/output/jobs_latest.json` | **Full replace** every run: current snapshot only, grouped into **`intern`**, **`new_grad`**, and **`other`**. Skipped with `--no-save`. |
-| `data/output/jobs.md` | **Full replace** every run (no append): same snapshot as Markdown sections/tables. Skipped with `--no-save`. |
+| `data/output/jobs_latest.json` | **Full replace** every run: **`company`**, **`salary`** (when known), grouped into **`intern`**, **`new_grad`**, and **`other`**. Skipped with `--no-save`. |
+| `data/output/jobs.md` | **Full replace** every run: sortable-style tables (**Company, Title, Location, Salary, Source,** link). Skipped with `--no-save`. |
 
 Snapshots live under **`data/output/`** so they stay separate from state (`seen_jobs.json` in `data/`).
 
@@ -78,7 +67,8 @@ Putting scraped listings **inside `README.md` itself** is uncommon: the README i
 
 Edit `config/boards.json`:
 
-- **`location_filter`** (optional): string array. A job passes if **any** substring appears in **location, title, or team** (case-insensitive), **or** if `remote_germany` applies (see below). Omit or use `[]` if you only rely on remote-Germany matching.
+- **`location_filter`** (optional): string array. A job passes if **any** substring appears in **company, location, title, team, or salary** fields combined (case-insensitive), **or** if `remote_germany` applies (see below). Omit or use `[]` if you only rely on remote-Germany matching.
+- **`gemini`** (optional): object with **`enabled`** (boolean), **`model`** (e.g. `gemini-2.0-flash`), and optional **`prompt_extra`**. The key is read from **`GEMINI_API_KEY`** in the environment or from a **`.env`** file in the project root (see setup above). With `enabled: false`, Gemini is skipped.
 - **`remote_germany`** (optional, boolean, default `false`): if `true`, also keep jobs whose text looks like **remote / hybrid / WFH** *and* **Germany-related** (e.g. Germany, Deutschland, Berlin, Brandenburg, DACH, common Bundesländer hints). This is meant to include roles like “Remote (Germany)” without letting in generic worldwide remote spam.
 - **`greenhouse`:** string array of board tokens from `https://job-boards.greenhouse.io/{token}`.
 - **`lever`:** string array of company slugs from `https://jobs.lever.co/{company}`.
@@ -114,6 +104,7 @@ The tool does not schedule itself. To poll regularly, use **cron**, a **macOS La
 
 ## Limitations
 
+- **Gemini** does not browse the live web. It returns **suggested** roles from model knowledge; links and salaries can be **wrong or outdated**. Treat Gemini rows as leads and verify on the employer site. Empty `apply_url` from the model is replaced with a **Google search** link for convenience.
 - **Indeed** often serves **Cloudflare** or other challenges to scripted clients. The RSS integration is best-effort: it may work from a normal home network and fail from a datacenter or VPN. If you always get warnings, rely on other sources or run less often from a residential IP.
 - **LinkedIn** uses an **undocumented guest** endpoint. It can change, throttle, or block aggressive use. Keep **`pages`** small and runs infrequent. Automated access may not match [LinkedIn’s terms](https://www.linkedin.com/legal/user-agreement); use at your own risk.
 - Only the implemented sources are supported; many employers use **Workday, Ashby, iCIMS**, etc.

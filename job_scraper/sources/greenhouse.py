@@ -16,8 +16,24 @@ def _plain(text: str | None) -> str:
     return _STRIP_HTML.sub(" ", text)
 
 
+def _board_display_name(board: str, api_name: str | None) -> str:
+    if api_name:
+        return api_name
+    return board.replace("-", " ").strip().title() or board
+
+
 async def fetch_greenhouse_board(client: httpx.AsyncClient, board: str) -> list[JobListing]:
-    url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs"
+    board_url = f"https://boards-api.greenhouse.io/v1/boards/{board}"
+    company_name: str | None = None
+    try:
+        br = await client.get(board_url, timeout=20.0)
+        if br.status_code == 200:
+            company_name = (br.json().get("name") or "").strip() or None
+    except Exception:
+        company_name = None
+    display_company = _board_display_name(board, company_name)
+
+    url = f"{board_url}/jobs"
     r = await client.get(url, params={"content": "true"}, timeout=30.0)
     r.raise_for_status()
     payload = r.json()
@@ -51,6 +67,8 @@ async def fetch_greenhouse_board(client: httpx.AsyncClient, board: str) -> list[
                 url=absolute_url,
                 location=location,
                 team=team,
+                company=display_company,
+                salary=None,
             )
         )
     return out

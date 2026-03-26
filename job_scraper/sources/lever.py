@@ -6,6 +6,10 @@ from job_scraper.filters import matches_target_role
 from job_scraper.models import JobListing
 
 
+def _company_from_slug(company: str) -> str:
+    return company.replace("-", " ").replace("_", " ").strip().title() or company
+
+
 async def fetch_lever_board(client: httpx.AsyncClient, company: str) -> list[JobListing]:
     url = f"https://api.lever.co/v0/postings/{company}"
     r = await client.get(url, params={"mode": "json"}, timeout=30.0)
@@ -13,6 +17,7 @@ async def fetch_lever_board(client: httpx.AsyncClient, company: str) -> list[Job
     jobs = r.json()
     if not isinstance(jobs, list):
         return []
+    display_company = _company_from_slug(company)
     out: list[JobListing] = []
     for j in jobs:
         jid = str(j.get("id") or "")
@@ -38,6 +43,8 @@ async def fetch_lever_board(client: httpx.AsyncClient, company: str) -> list[Job
                 url=job_url,
                 location=loc or None,
                 team=None,
+                company=display_company,
+                salary=None,
             )
         )
     return out
